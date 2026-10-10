@@ -8,7 +8,7 @@ import Foundation
 // │  • Production: https://your-deployed-domain.com                      │
 // └─────────────────────────────────────────────────────────────────────┘
 enum API {
-    static var baseURL = URL(string: "Prems-Mac-Studio.local:3001")!
+    static var baseURL = URL(string: "http://Prems-Mac-Studio.local:3001")!
     static let scanPath = "/api/scan"
 }
 
